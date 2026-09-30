@@ -1,0 +1,1 @@
+function demoSignup(e){e.preventDefault();document.getElementById('formmsg').textContent='Demo account created locally — no data was sent.';e.target.reset();return false}function demoLogin(e){e.preventDefault();document.getElementById('loginmsg').textContent='Demo login only — no credentials were transmitted.';e.target.reset();return false}
